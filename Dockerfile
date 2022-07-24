@@ -7,7 +7,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY default /etc/nginx/sites-enabled/default
 #WORKDIR is /var/www/html
 COPY . /var/www/html/
-EXPOSE 8081
+EXPOSE 8082
 RUN chmod 777 /var/www/html/start.sh
 RUN npm install  
 #CMD ["node express_demo.js"]
