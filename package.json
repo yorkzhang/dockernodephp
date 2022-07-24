@@ -1,0 +1,15 @@
+{
+  "name": "dockernodephp",
+  "version": "1.0.0",
+  "description": "demo for node",
+  "main": "express_demo.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
